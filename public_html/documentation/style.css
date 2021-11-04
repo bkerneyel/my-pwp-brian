@@ -1,0 +1,27 @@
+.bg-image {
+    background-image: url('img/redcircuit.jpg');
+    height: 100vh;
+
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+}
+
+ .container {
+     font-size: x-large;
+ }
+
+.map {
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-color: ##F2CE1B;
+    color: #F23005;
+    height: 70px;
+    font-size: 27px;
+    padding: 10px;
+}
