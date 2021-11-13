@@ -1,6 +1,6 @@
 .bg-image {
     background-image: url('documentation/img/redcircuit.jpg');
-    height: 100vh;
+    height: 200vh;
 
     /* Flexbox */
     display: flex;

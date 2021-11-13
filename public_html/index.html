@@ -17,36 +17,36 @@
     <script type="text/javascript" src="script.js"></script>
 
 
-    <title></title>
+    <title>BEL COM LLC</title>
 
     <div class="fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#F2CE1B;">
+        <nav class="navbar  navbar-default"  role="navigation" style="background-color:#F2CE1B;">
             <div>
                 <div class="row">
                 </div>
                 <div class="col">
-                    <h1>BEL COM LLC</h1>
+        <div class="navbar-header">
+            <button class="navbar-toggle" style="font-size: large; background-color: crimson"
+                    data-toggle="collapse" data-target="#example-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="./documentation/img/belthumb.jpg"></a>
+        </div>
+        <div class="collapse navbar-collapse " id="example-navbar-collapse">
+            <ul class="nav navbar-nav" >
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#Introduction">Introduction</a></li>
+                <li><a href="#Development">Development</a></li>
+                <li><a href="#Mission Statement">Mission Statement</a></li>
+                <li><a href="#Contact Us">Contact Us</a></li>
+            </ul>
+        </div>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="text-align-last: right">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Introduction</a>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Development</a>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Mission Statement</a>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        </div>
+    </nav>
     </div>
 </head>
 <div class="bg-image">
@@ -71,7 +71,7 @@
         </div>
     </div>
 </div>
-<div class="bg-image">
+<a id="Introduction"><div class="bg-image">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -98,8 +98,8 @@
             </div>
         </div>
     </div>
-</div>
-<div class="bg-image">
+</div></a>
+<a id="Development"><div class="bg-image">
     <div class="container">
         <div class="d-flex flex-row">
             <div class="d-flex flex-column">
@@ -118,8 +118,8 @@
         </div>
         </div>
     </div>
-</div>
-<div class="bg-image">
+</div></a>
+<a id="Mission Statement"><div class="bg-image">
     <div class="container" style="background-color: #F2CE1B">
         <div class="row">
         <div class="col-md-6">
@@ -136,8 +136,8 @@
             </div>
 
 </div>
-        </div>
-    <div class="bg-image text-center">
+        </div></a>
+ <div id="Contact Us" class="bg-image text-center">
 
                     <!-- BEGIN CONTACT FORM -->
                     <div class="container" style="background-color: #F2CE1B">
@@ -198,10 +198,11 @@
                         <div class="card ">
                             <div class="text-xs-center header" style="background-color: #F2CE1B"><h1>Anyone interested in enrolling in a local web development boot-camp through our company can register here:</h1></div>
                             <div class="card-block text-xs-center" style="background-color: #f2ce1b">
-                                <button id="button1" style="background-color: #F27B13">Job Training Albuquerque Registration form</button><h2>Employer's name and address is:</h2>
+                                <button type="submit" onclick="window.location.href='./documentation/JTA Registration Form Fillable PDF (2).pdf'"id="button1" style="background-color: #F27B13">Job Training Albuquerque Registration form</button>
+                                <h2>Employer's name and address is:</h2>
                                 <h2><b> BEL COM LLC</b>
                                     <a>933 San Mateo Blvd. NE Albuquerque, NM 87108</a></h2>
-                                <button id="button2" style="background-color: #F27B13">Email completed form to: apendelljones@cnm.edu</button>
+                                <p><a href="mailto:apendelljones@cnm.edu">(Email completed form here after saving it.)</a></p>
                             </div>
                         </div>
                     </div>
